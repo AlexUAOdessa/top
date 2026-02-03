@@ -1,4 +1,3 @@
-# pip install tqdm
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
@@ -13,11 +12,13 @@ from tqdm import tqdm
 FILENAME = 'car_sales.csv'
 FRAMES_PER_YEAR = 15
 VIDEO_FPS = 30
+# Коэффициент замедления (0.15 = очень медленно, 0.95 = почти оригинал)
+SPEED_FACTOR = 0.15 
 
 # === ИСПРАВЛЕНИЕ ШРИФТОВ (WINDOWS) ===
 plt.rcParams['font.family'] = 'Segoe UI Emoji'
 
-# Цвета брендов
+# Цвета брендов (согласно вашим предпочтениям для Nexus Innovate)
 COLORS = {
     'Toyota': '#EB0A1E',
     'VW Group': '#001E50',
@@ -43,6 +44,7 @@ def interpolate_data(df, frames_per_year):
     df_interp = df.reindex(df.index.union(years_expanded)).interpolate(method='linear').reindex(years_expanded)
     return df_interp, years_expanded
 
+# Загружаем данные
 df_raw = load_data(FILENAME)
 df, frames = interpolate_data(df_raw, FRAMES_PER_YEAR)
 
@@ -70,7 +72,7 @@ def draw_barchart(current_year):
     ax.text(0.95, 0.2, year_int, transform=ax.transAxes, color='#00CC00', size=50, ha='right', weight=800)
     ax.text(0.95, 0.14, 'Global Car Sales', transform=ax.transAxes, color='#999999', size=14, ha='right')
 
-    # Логика событий (кратко)
+    # События (Dieselgate, COVID и т.д.)
     if 2008.5 <= current_year <= 2009.8 and 'GM' in d.index:
         idx = list(d.index).index('GM')
         ax.annotate('📉 BANKRUPTCY', xy=(d['GM'], idx), xytext=(d['GM'] + 2, idx),
@@ -83,26 +85,20 @@ def draw_barchart(current_year):
         spine.set_visible(False)
     plt.title('Nexus Innovate: Global Auto Market (2000-2026)', size=14, loc='left', color='#333333')
 
-# 3. ФУНКЦИЯ ПОСТ-ОБРАБОТКИ С ПРОГРЕСС-БАРОМ
+# 3. ФУНКЦИЯ ПОСТ-ОБРАБОТКИ (FFMPEG)
 def create_smooth_slowmo(input_file, output_file, speed_factor=0.85, preset_ffmpeg='fast'):
-    """
-    Пресеты FFmpeg:
-    - 'ultrafast': максимум скорости, хуже сжатие.
-    - 'superfast', 'veryfast', 'faster', 'fast': сбалансированные (сейчас 'fast').
-    - 'medium': стандартный.
-    - 'slow', 'slower', 'veryslow': лучшее качество/размер, но ОЧЕНЬ долго.
-    """
     print(f"\n--- НАЧИНАЮ ЗАМЕДЛЕНИЕ (x{speed_factor}) ---")
     pts_multiplier = 1 / speed_factor
     
-    # Примерная длительность финального видео для tqdm
-    # (Длительность оригинала * множитель замедления)
-    total_duration_final = (len(df) / VIDEO_FPS) * pts_multiplier
+    # Расчет длительности для прогресс-бара
+    # Получаем длительность исходного видео через ffprobe (приблизительно)
+    total_duration_final = (len(extended_frames) / VIDEO_FPS) * pts_multiplier
 
     cmd = [
         'ffmpeg', '-y', '-stats',
         '-i', input_file,
-        '-filter:v', f"setpts={pts_multiplier}*PTS,minterpolate='mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1'",
+        # scdet=0 отключает обрезку при "смене сцен", mi_mode=mci создает плавные кадры
+        '-filter:v', f"setpts={pts_multiplier}*PTS,minterpolate='mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1:scdet=0'",
         '-c:v', 'libx264', '-crf', '18',
         '-preset', preset_ffmpeg,
         output_file
@@ -111,7 +107,7 @@ def create_smooth_slowmo(input_file, output_file, speed_factor=0.85, preset_ffmp
     process = subprocess.Popen(cmd, stderr=subprocess.PIPE, stdout=subprocess.PIPE, 
                                universal_newlines=True, encoding='utf-8')
     
-    pbar = tqdm(total=100, desc="Рендеринг видео (Nexus Innovate)", unit="%")
+    pbar = tqdm(total=100, desc="Рендеринг (Nexus Innovate)", unit="%")
     time_pattern = re.compile(r"time=(\d+):(\d+):(\d+\.\d+)")
 
     while True:
@@ -132,23 +128,28 @@ def create_smooth_slowmo(input_file, output_file, speed_factor=0.85, preset_ffmp
     process.wait()
 
     if process.returncode == 0:
-        print(f"✅ УСПЕХ! Видео готово: {output_file}")
+        print(f"✅ УСПЕХ! Финальное видео: {output_file}")
     else:
-        print(f"❌ ОШИБКА FFmpeg (код {process.returncode})")
+        print(f"❌ ОШИБКА FFmpeg")
 
-# 4. ЗАПУСК
-print("1. Генерация исходной анимации (Matplotlib)...")
-anim = animation.FuncAnimation(fig, draw_barchart, frames=frames, interval=1000/VIDEO_FPS, repeat=False)
+# 4. ЗАПУСК ГЕНЕРАЦИИ
+print("1. Подготовка кадров...")
+# Добавляем 3 секунды статичного финала (2026 год), чтобы FFmpeg не обрезал конец
+extra_padding = [frames[-1]] * (VIDEO_FPS * 3)
+extended_frames = np.concatenate([frames, extra_padding])
 
-normal_speed_file = 'car_race_original.mp4'
-final_slow_file = 'car_race_2026_SLOW_MO.mp4'
+print(f"2. Генерация временного файла (Matplotlib)...")
+anim = animation.FuncAnimation(fig, draw_barchart, frames=extended_frames, interval=1000/VIDEO_FPS, repeat=False)
 
-anim.save(normal_speed_file, writer='ffmpeg', fps=VIDEO_FPS, dpi=150)
-print(f"Исходный файл готов: {normal_speed_file}")
+temp_file = 'temp_original.mp4'
+final_file = 'car_race_2026_FINAL.mp4'
 
-# Запуск замедления с прогресс-баром
-# speed_factor=0.15 — сильное замедление
-# preset_ffmpeg — 'fast', 'medium', 'slow' и т.д.
-create_smooth_slowmo(normal_speed_file, final_slow_file, speed_factor=0.15, preset_ffmpeg='fast')
+anim.save(temp_file, writer='ffmpeg', fps=VIDEO_FPS, dpi=150)
 
-print("\n--- СКРИПТ ЗАВЕРШЕН ---")
+# 3. Замедление через FFmpeg
+create_smooth_slowmo(temp_file, final_file, speed_factor=SPEED_FACTOR, preset_ffmpeg='fast')
+
+# Удаляем временный файл (по желанию)
+# os.remove(temp_file)
+
+print("\n--- ГОТОВО: Видео заканчивается на 2026 году ---")
