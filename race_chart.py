@@ -160,7 +160,7 @@ print(f"Исходный файл готов: {normal_speed_file}")
 
 # Запуск замедления
 # speed_factor=0.85 означает 85% от реальной скорости
-create_smooth_slowmo(normal_speed_file, final_slow_file, speed_factor=0.15)
+create_smooth_slowmo(normal_speed_file, final_slow_file, speed_factor=0.95)
 
 print("\n--- СКРИПТ ЗАВЕРШЕН ---")
 # plt.show() # Можно убрать комментарий, если нужно показать окно
