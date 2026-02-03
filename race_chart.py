@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 from matplotlib.ticker import StrMethodFormatter
 import numpy as np
+import subprocess  # Библиотека для запуска внешних команд (FFMPEG)
+import os
 
 # --- НАСТРОЙКИ ---
 FILENAME = 'car_sales.csv'
@@ -10,7 +12,6 @@ FRAMES_PER_YEAR = 15
 VIDEO_FPS = 30
 
 # === ИСПРАВЛЕНИЕ ШРИФТОВ (WINDOWS) ===
-# Используем системный шрифт, который поддерживает эмодзи
 plt.rcParams['font.family'] = 'Segoe UI Emoji'
 
 # Цвета брендов
@@ -70,8 +71,7 @@ def draw_barchart(current_year):
     
     year_int = int(current_year)
     
-    # --- ИЗМЕНЕНИЕ ЦВЕТА ЗДЕСЬ ---
-    # color='#00CC00' — это ярко-зеленый (Matrix green)
+    # Зеленый год
     ax.text(0.95, 0.2, year_int, transform=ax.transAxes, color='#00CC00', size=50, ha='right', weight=800)
     ax.text(0.95, 0.14, 'Global Car Sales', transform=ax.transAxes, color='#999999', size=14, ha='right')
 
@@ -117,9 +117,50 @@ def draw_barchart(current_year):
     
     plt.title('Nexus Innovate: Global Auto Market (2000-2026)', size=14, loc='left', color='#333333')
 
-# 3. ЗАПУСК
-print("Генерация видео...")
+# 3. ФУНКЦИЯ ПОСТ-ОБРАБОТКИ (Замедление)
+def create_smooth_slowmo(input_file, output_file, speed_factor=0.85):
+    print(f"\n--- НАЧИНАЮ ЗАМЕДЛЕНИЕ (x{speed_factor}) ---")
+    print("Использую FFMPEG с фильтром minterpolate для плавности...")
+    
+    # 1/0.85 = 1.176 (во столько раз растягиваем время)
+    pts_multiplier = 1 / speed_factor
+    
+    cmd = [
+        'ffmpeg',
+        '-y',               # Перезаписать файл без вопросов
+        '-i', input_file,   # Входной файл (быстрый)
+        # Фильтр: setpts меняет скорость, minterpolate дорисовывает кадры
+        '-filter:v', f"setpts={pts_multiplier}*PTS,minterpolate='mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1'",
+        '-c:v', 'libx264',  # Кодек
+        '-crf', '18',       # Высокое качество
+        '-preset', 'fast',  # Баланс скорости кодирования
+        output_file         # Итоговый файл
+    ]
+    
+    try:
+        # Запускаем команду и ждем завершения
+        subprocess.run(cmd, check=True)
+        print(f"✅ УСПЕХ! Замедленное видео готово: {output_file}")
+    except FileNotFoundError:
+        print("❌ ОШИБКА: FFMPEG не найден! Установите ffmpeg и добавьте в PATH.")
+    except subprocess.CalledProcessError as e:
+        print(f"❌ ОШИБКА FFMPEG: {e}")
+
+# 4. ЗАПУСК ГЕНЕРАЦИИ
+print("1. Генерация исходной анимации (Matplotlib)...")
 anim = animation.FuncAnimation(fig, draw_barchart, frames=frames, interval=1000/VIDEO_FPS, repeat=False)
-anim.save('car_race_2026.mp4', writer='ffmpeg', fps=VIDEO_FPS, dpi=150)
-print("Готово!")
-plt.show()
+
+# Имя промежуточного файла
+normal_speed_file = 'car_race_original.mp4'
+# Имя финального файла
+final_slow_file = 'car_race_2026_SLOW_MO.mp4'
+
+anim.save(normal_speed_file, writer='ffmpeg', fps=VIDEO_FPS, dpi=150)
+print(f"Исходный файл готов: {normal_speed_file}")
+
+# Запуск замедления
+# speed_factor=0.85 означает 85% от реальной скорости
+create_smooth_slowmo(normal_speed_file, final_slow_file, speed_factor=0.15)
+
+print("\n--- СКРИПТ ЗАВЕРШЕН ---")
+# plt.show() # Можно убрать комментарий, если нужно показать окно
