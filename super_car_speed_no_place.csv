@@ -1,0 +1,201 @@
+год,марка,модель,максимальная_скорость_км_ч,разгон_0_100_км_ч_сек
+1960,Aston Martin,DB4 GT Zagato,247,6.1
+1960,Ferrari,250 GT California,240,6.5
+1960,Chevrolet,Corvette C1 283 FI,233,5.9
+1960,Maserati,3500 GT,230,7.0
+1960,Jaguar,XK150 S 3.4,222,7.3
+1960,Mercedes-Benz,300 SL Gullwing,215,8.8
+1960,Porsche,356 Carrera,210,9.0
+1960,AC,Ace Bristol,205,8.5
+1960,Triumph,TR3A,195,9.5
+1960,Alfa Romeo,Giulietta Sprint Veloce,190,10.0
+1965,AC,Cobra Mk III 427,266,4.3
+1965,Shelby,Cobra 427,262,4.5
+1965,Iso,Grifo GL 365,259,6.0
+1965,Ferrari,275 GTB,250,6.5
+1965,Lamborghini,350 GT,250,6.8
+1965,Aston Martin,DB4 GT Zagato,247,6.1
+1965,Jaguar,E-Type Series 1 4.2,245,7.0
+1965,Ferrari,250 GT California,240,6.5
+1965,Aston Martin,DB5,235,7.1
+1965,Chevrolet,Corvette C1 283 FI,233,5.9
+1970,Lamborghini,Miura SV,290,5.5
+1970,Ferrari,365 GTB/4 Daytona,280,5.4
+1970,Maserati,Ghibli SS,280,6.0
+1970,AC,Cobra Mk III 427,266,4.3
+1970,Shelby,Cobra 427,262,4.5
+1970,Iso,Grifo GL 365,259,6.0
+1970,De Tomaso,Pantera,256,5.5
+1970,Ferrari,275 GTB,250,6.5
+1970,Lamborghini,350 GT,250,6.8
+1970,Aston Martin,DB4 GT Zagato,247,6.1
+1974,Lamborghini,Countach LP400,290,5.4
+1974,Lamborghini,Miura SV,290,5.5
+1974,Ferrari,365 GTB/4 Daytona,280,5.4
+1974,Maserati,Ghibli SS,280,6.0
+1974,AC,Cobra Mk III 427,266,4.3
+1974,Shelby,Cobra 427,262,4.5
+1974,Iso,Grifo GL 365,259,6.0
+1974,De Tomaso,Pantera,256,5.5
+1974,Ferrari,275 GTB,250,6.5
+1974,Lamborghini,350 GT,250,6.8
+1975,Lamborghini,Countach LP400,290,5.4
+1975,Lamborghini,Miura SV,290,5.5
+1975,Ferrari,365 GTB/4 Daytona,280,5.4
+1975,Maserati,Ghibli SS,280,6.0
+1975,AC,Cobra Mk III 427,266,4.3
+1975,Shelby,Cobra 427,262,4.5
+1975,Iso,Grifo GL 365,259,6.0
+1975,De Tomaso,Pantera,256,5.5
+1975,Porsche,911 Turbo (930),250,5.2
+1975,Ferrari,275 GTB,250,6.5
+1978,Lamborghini,Countach LP400,290,5.4
+1978,Lamborghini,Miura SV,290,5.5
+1978,Ferrari,365 GTB/4 Daytona,280,5.4
+1978,Maserati,Ghibli SS,280,6.0
+1978,AC,Cobra Mk III 427,266,4.3
+1978,BMW,M1,265,5.6
+1978,Shelby,Cobra 427,262,4.5
+1978,Iso,Grifo GL 365,259,6.0
+1978,De Tomaso,Pantera,256,5.5
+1978,Porsche,911 Turbo (930),250,5.2
+1982,Lamborghini,Countach LP5000 S,293,5.0
+1982,Lamborghini,Countach LP400,290,5.4
+1982,Lamborghini,Miura SV,290,5.5
+1982,Ferrari,365 GTB/4 Daytona,280,5.4
+1982,Maserati,Ghibli SS,280,6.0
+1982,AC,Cobra Mk III 427,266,4.3
+1982,BMW,M1,265,5.6
+1982,Shelby,Cobra 427,262,4.5
+1982,Iso,Grifo GL 365,259,6.0
+1982,De Tomaso,Pantera,256,5.5
+1984,Ferrari,288 GTO,305,4.9
+1984,Lamborghini,Countach LP5000 S,293,5.0
+1984,Lamborghini,Countach LP400,290,5.4
+1984,Lamborghini,Miura SV,290,5.5
+1984,Ferrari,365 GTB/4 Daytona,280,5.4
+1984,Maserati,Ghibli SS,280,6.0
+1984,AC,Cobra Mk III 427,266,4.3
+1984,BMW,M1,265,5.6
+1984,Shelby,Cobra 427,262,4.5
+1984,Iso,Grifo GL 365,259,6.0
+1985,Ferrari,288 GTO,305,4.9
+1985,Lamborghini,Countach LP5000 QV,298,4.8
+1985,Lamborghini,Countach LP5000 S,293,5.0
+1985,Lamborghini,Countach LP400,290,5.4
+1985,Lamborghini,Miura SV,290,5.5
+1985,Ferrari,365 GTB/4 Daytona,280,5.4
+1985,Maserati,Ghibli SS,280,6.0
+1985,AC,Cobra Mk III 427,266,4.3
+1985,BMW,M1,265,5.6
+1985,Shelby,Cobra 427,262,4.5
+1987,Ruf,CTR Yellowbird,342,4.0
+1987,Ferrari,F40,324,4.1
+1987,McLaren,F1 LM (prototype era),320,3.9
+1987,Vector,W2,320,4.2
+1987,Porsche,959,317,3.7
+1987,Ferrari,288 GTO,305,4.9
+1987,Chevrolet,Corvette Callaway Twin Turbo,300,4.2
+1987,Lamborghini,Countach LP5000 QV,298,4.8
+1987,Lamborghini,Countach 5000 QV,295,4.5
+1987,Lamborghini,Countach LP5000 S,293,5.0
+1991,Bugatti,EB110 GT,342,3.5
+1991,Ruf,CTR Yellowbird,342,4.0
+1991,Ferrari,F40,324,4.1
+1991,McLaren,F1 LM (prototype era),320,3.9
+1991,Vector,W2,320,4.2
+1991,Porsche,959,317,3.7
+1991,Ferrari,288 GTO,305,4.9
+1991,Chevrolet,Corvette Callaway Twin Turbo,300,4.2
+1991,Lamborghini,Countach LP5000 QV,298,4.8
+1991,Lamborghini,Countach 5000 QV,295,4.5
+1992,Jaguar,XJ220,343,3.6
+1992,Bugatti,EB110 GT,342,3.5
+1992,Ruf,CTR Yellowbird,342,4.0
+1992,Ferrari,F40,324,4.1
+1992,McLaren,F1 LM (prototype era),320,3.9
+1992,Vector,W2,320,4.2
+1992,Porsche,959,317,3.7
+1992,Ferrari,288 GTO,305,4.9
+1992,Chevrolet,Corvette Callaway Twin Turbo,300,4.2
+1992,Lamborghini,Countach LP5000 QV,298,4.8
+1995,Jaguar,XJ220,343,3.6
+1995,Bugatti,EB110 GT,342,3.5
+1995,Ruf,CTR Yellowbird,342,4.0
+1995,Ferrari,F50,325,3.7
+1995,Ferrari,F40,324,4.1
+1995,McLaren,F1 LM (prototype era),320,3.9
+1995,Vector,W2,320,4.2
+1995,Porsche,959,317,3.7
+1995,Ferrari,288 GTO,305,4.9
+1995,Chevrolet,Corvette Callaway Twin Turbo,300,4.2
+1997,Mercedes-Benz,CLK GTR,344,3.8
+1997,Jaguar,XJ220,343,3.6
+1997,Bugatti,EB110 GT,342,3.5
+1997,Ruf,CTR Yellowbird,342,4.0
+1997,Ferrari,F50,325,3.7
+1997,Ferrari,F40,324,4.1
+1997,McLaren,F1 LM (prototype era),320,3.9
+1997,Vector,W2,320,4.2
+1997,Porsche,959,317,3.7
+1997,Ferrari,288 GTO,305,4.9
+2002,Ferrari,Enzo,350,3.3
+2002,Mercedes-Benz,CLK GTR,344,3.8
+2002,Jaguar,XJ220,343,3.6
+2002,Bugatti,EB110 GT,342,3.5
+2002,Ruf,CTR Yellowbird,342,4.0
+2002,Ferrari,F50,325,3.7
+2002,Ferrari,F40,324,4.1
+2002,McLaren,F1 LM (prototype era),320,3.9
+2002,Vector,W2,320,4.2
+2002,Porsche,959,317,3.7
+2003,Ferrari,Enzo,350,3.3
+2003,Mercedes-Benz,CLK GTR,344,3.8
+2003,Jaguar,XJ220,343,3.6
+2003,Bugatti,EB110 GT,342,3.5
+2003,Ruf,CTR Yellowbird,342,4.0
+2003,Porsche,Carrera GT,330,3.9
+2003,Ferrari,F50,325,3.7
+2003,Ferrari,F40,324,4.1
+2003,McLaren,F1 LM (prototype era),320,3.9
+2003,Vector,W2,320,4.2
+2011,Lamborghini,Aventador LP700-4,350,2.9
+2011,Ferrari,Enzo,350,3.3
+2011,Mercedes-Benz,CLK GTR,344,3.8
+2011,Jaguar,XJ220,343,3.6
+2011,Bugatti,EB110 GT,342,3.5
+2011,Ruf,CTR Yellowbird,342,4.0
+2011,Porsche,Carrera GT,330,3.9
+2011,Ferrari,F50,325,3.7
+2011,Ferrari,F40,324,4.1
+2011,McLaren,F1 LM (prototype era),320,3.9
+2013,Ferrari,LaFerrari,350,2.4
+2013,McLaren,P1,350,2.8
+2013,Lamborghini,Aventador LP700-4,350,2.9
+2013,Ferrari,Enzo,350,3.3
+2013,Porsche,918 Spyder,345,2.6
+2013,Mercedes-Benz,CLK GTR,344,3.8
+2013,Jaguar,XJ220,343,3.6
+2013,Bugatti,EB110 GT,342,3.5
+2013,Ruf,CTR Yellowbird,342,4.0
+2013,Porsche,Carrera GT,330,3.9
+2025,Pininfarina,Battista,350-400,1.86
+2025,Ferrari,LaFerrari,350,2.4
+2025,McLaren,P1,350,2.8
+2025,Lamborghini,Aventador LP700-4,350,2.9
+2025,Ferrari,Enzo,350,3.3
+2025,Porsche,918 Spyder,345,2.6
+2025,Mercedes-Benz,CLK GTR,344,3.8
+2025,Jaguar,XJ220,343,3.6
+2025,Bugatti,EB110 GT,342,3.5
+2025,Ruf,CTR Yellowbird,342,4.0
+2026,Pininfarina,Battista,350-400,1.86
+2026,Ferrari,LaFerrari,350,2.4
+2026,McLaren,P1,350,2.8
+2026,Lamborghini,Aventador LP700-4,350,2.9
+2026,Ferrari,Enzo,350,3.3
+2026,Porsche,918 Spyder,345,2.6
+2026,Mercedes-Benz,CLK GTR,344,3.8
+2026,Jaguar,XJ220,343,3.6
+2026,Bugatti,EB110 GT,342,3.5
+2026,Ruf,CTR Yellowbird,342,4.0
