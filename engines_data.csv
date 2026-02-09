@@ -1,0 +1,394 @@
+Year,Company,Engine_Name,Displacement,Horsepower
+2000,Porsche,Porsche V12 Natural 40,6.0,552
+2000,Chevrolet,Chevrolet Flat-6 1,3.9,344
+2000,Koenigsegg,Koenigsegg V10 Performance 75,3.4,649
+2000,Ferrari,Ferrari Flat-6 98,3.1,309
+2000,Bugatti,Bugatti V12 Natural 74,4.5,637
+2000,McLaren,McLaren V8 Supercharged 85,7.8,620
+2000,Koenigsegg,Koenigsegg V8 Supercharged 84,5.2,743
+2000,Audi,Audi Flat-6 35,6.9,555
+2000,Bugatti,Bugatti Inline-6 86,5.4,348
+2000,BMW,BMW V8 Supercharged 23,2.9,444
+2000,McLaren,McLaren V10 Performance 16,4.8,449
+2000,Porsche,Porsche Inline-6 33,5.2,514
+2000,Ferrari,Ferrari Flat-6 55,5.5,313
+2000,Porsche,Porsche Inline-6 64,7.4,420
+2000,BMW,BMW V8 Turbo 22,2.8,714
+2001,Porsche,Porsche V8 Turbo 40,7.7,377
+2001,Pagani,Pagani W16 Quad 59,5.3,630
+2001,Koenigsegg,Koenigsegg W16 Quad 50,4.7,337
+2001,Pagani,Pagani W16 Quad 91,7.0,794
+2001,Ford,Ford Flat-6 52,3.6,752
+2001,Lamborghini,Lamborghini V10 Performance 78,7.4,693
+2001,Audi,Audi Inline-6 43,7.3,402
+2001,BMW,BMW V10 Performance 80,4.4,815
+2001,Lamborghini,Lamborghini V12 Natural 38,3.6,546
+2001,Mercedes-AMG,Mercedes-AMG V8 Supercharged 12,2.8,375
+2001,Audi,Audi Flat-6 73,2.4,469
+2001,Porsche,Porsche W16 Quad 92,3.9,648
+2001,Audi,Audi Flat-6 22,4.1,375
+2001,McLaren,McLaren V8 Turbo 46,5.1,348
+2001,BMW,BMW V12 Natural 24,5.0,383
+2002,Bugatti,Bugatti Inline-6 78,3.8,717
+2002,Lamborghini,Lamborghini V8 Supercharged 97,2.6,802
+2002,Chevrolet,Chevrolet Inline-6 61,5.6,828
+2002,BMW,BMW Flat-6 50,6.0,782
+2002,Pagani,Pagani V12 Natural 12,5.9,489
+2002,Pagani,Pagani Inline-6 67,7.8,487
+2002,Ford,Ford V8 Supercharged 36,7.1,437
+2002,Koenigsegg,Koenigsegg Flat-6 61,8.0,443
+2002,Porsche,Porsche Inline-6 24,2.3,854
+2002,Ferrari,Ferrari Flat-6 51,6.1,563
+2002,Pagani,Pagani V10 Performance 96,3.1,746
+2002,Bugatti,Bugatti V8 Supercharged 83,2.4,778
+2002,Mercedes-AMG,Mercedes-AMG W16 Quad 66,5.3,669
+2002,Audi,Audi V8 Supercharged 51,3.6,838
+2002,BMW,BMW W16 Quad 20,6.6,529
+2003,Pagani,Pagani V8 Supercharged 77,5.1,442
+2003,Ferrari,Ferrari V8 Turbo 12,2.6,407
+2003,Lamborghini,Lamborghini W16 Quad 42,4.8,842
+2003,McLaren,McLaren V8 Turbo 42,4.7,821
+2003,Porsche,Porsche V12 Natural 22,7.0,807
+2003,Audi,Audi V8 Turbo 11,4.7,774
+2003,Chevrolet,Chevrolet V8 Supercharged 90,7.7,422
+2003,Ferrari,Ferrari V10 Performance 95,4.7,463
+2003,Koenigsegg,Koenigsegg W16 Quad 92,7.1,633
+2003,Bugatti,Bugatti W16 Quad 79,6.0,616
+2003,Ford,Ford Flat-6 87,6.0,482
+2003,Lamborghini,Lamborghini V10 Performance 85,3.3,414
+2003,McLaren,McLaren V8 Turbo 59,6.6,616
+2003,Chevrolet,Chevrolet W16 Quad 80,3.0,682
+2003,Lamborghini,Lamborghini W16 Quad 56,2.8,725
+2004,Porsche,Porsche V8 Turbo 58,7.4,478
+2004,Porsche,Porsche W16 Quad 13,6.9,849
+2004,Lamborghini,Lamborghini Inline-6 53,4.7,568
+2004,BMW,BMW Flat-6 65,6.1,476
+2004,McLaren,McLaren V8 Supercharged 35,6.0,784
+2004,Audi,Audi V8 Turbo 44,3.0,770
+2004,Koenigsegg,Koenigsegg V8 Supercharged 55,7.4,498
+2004,Ford,Ford W16 Quad 97,3.4,658
+2004,Ford,Ford V12 Natural 19,5.8,698
+2004,McLaren,McLaren V12 Natural 79,7.3,630
+2004,Chevrolet,Chevrolet Flat-6 34,2.8,838
+2004,Pagani,Pagani V8 Turbo 29,2.4,586
+2004,Mercedes-AMG,Mercedes-AMG V10 Performance 16,2.7,785
+2004,BMW,BMW W16 Quad 94,2.2,894
+2004,Audi,Audi Flat-6 34,5.9,672
+2005,Porsche,Porsche V10 Performance 22,6.3,667
+2005,McLaren,McLaren W16 Quad 20,7.3,921
+2005,Chevrolet,Chevrolet V12 Natural 73,6.9,651
+2005,Bugatti,Bugatti V12 Natural 16,5.1,745
+2005,Lamborghini,Lamborghini W16 Quad 59,5.0,832
+2005,Mercedes-AMG,Mercedes-AMG Inline-6 7,2.5,924
+2005,Pagani,Pagani V10 Performance 92,4.6,650
+2005,Bugatti,Bugatti V8 Turbo 67,5.4,502
+2005,Lamborghini,Lamborghini V8 Turbo 83,2.6,586
+2005,BMW,BMW V12 Natural 67,3.8,491
+2005,Pagani,Pagani V12 Natural 10,4.7,783
+2005,Chevrolet,Chevrolet Inline-6 46,7.2,587
+2005,Ford,Ford V8 Turbo 5,5.7,928
+2005,Porsche,Porsche V12 Natural 83,4.8,660
+2005,Bugatti,Bugatti V8 Supercharged 37,3.6,906
+2006,McLaren,McLaren V8 Supercharged 55,2.9,963
+2006,Mercedes-AMG,Mercedes-AMG W16 Quad 95,5.0,560
+2006,Lamborghini,Lamborghini Flat-6 67,3.5,662
+2006,BMW,BMW Inline-6 54,2.6,810
+2006,Lamborghini,Lamborghini V8 Turbo 58,5.5,717
+2006,Lamborghini,Lamborghini Inline-6 43,4.1,674
+2006,McLaren,McLaren Inline-6 65,6.6,518
+2006,Chevrolet,Chevrolet V8 Supercharged 89,2.1,688
+2006,BMW,BMW Inline-6 80,2.7,521
+2006,BMW,BMW V8 Turbo 39,7.3,919
+2006,Ferrari,Ferrari V8 Turbo 80,4.8,971
+2006,BMW,BMW V8 Turbo 49,2.8,701
+2006,Porsche,Porsche V10 Performance 63,2.8,873
+2006,Chevrolet,Chevrolet V10 Performance 29,6.9,581
+2006,Bugatti,Bugatti V8 Turbo 78,7.2,612
+2007,Pagani,Pagani V8 Supercharged 29,7.2,677
+2007,Bugatti,Bugatti W16 Quad 87,4.4,924
+2007,McLaren,McLaren V10 Performance 95,2.7,763
+2007,Ford,Ford Flat-6 37,3.5,570
+2007,McLaren,McLaren W16 Quad 91,7.0,708
+2007,Audi,Audi Inline-6 95,5.7,633
+2007,Pagani,Pagani V10 Performance 31,5.3,886
+2007,Pagani,Pagani Flat-6 8,5.5,986
+2007,BMW,BMW V10 Performance 81,4.8,920
+2007,Audi,Audi V10 Performance 78,2.3,961
+2007,BMW,BMW V8 Supercharged 86,3.2,579
+2007,Audi,Audi V12 Natural 48,3.0,539
+2007,Lamborghini,Lamborghini Flat-6 43,6.9,633
+2007,Lamborghini,Lamborghini W16 Quad 41,5.3,716
+2007,Pagani,Pagani W16 Quad 45,4.7,828
+2008,BMW,BMW V8 Turbo 95,7.9,905
+2008,Chevrolet,Chevrolet W16 Quad 28,2.0,937
+2008,BMW,BMW Inline-6 17,5.3,734
+2008,Koenigsegg,Koenigsegg V8 Turbo 67,2.3,816
+2008,Koenigsegg,Koenigsegg V10 Performance 55,4.7,651
+2008,Ford,Ford V10 Performance 15,6.9,779
+2008,Chevrolet,Chevrolet V8 Supercharged 5,4.4,868
+2008,Koenigsegg,Koenigsegg V10 Performance 1,3.3,763
+2008,Mercedes-AMG,Mercedes-AMG V12 Natural 68,6.2,992
+2008,Bugatti,Bugatti W16 Quad 15,5.1,948
+2008,Bugatti,Bugatti V10 Performance 59,7.3,733
+2008,Lamborghini,Lamborghini V10 Performance 18,4.9,853
+2008,Lamborghini,Lamborghini W16 Quad 25,4.7,760
+2008,Audi,Audi W16 Quad 54,5.9,980
+2008,Pagani,Pagani W16 Quad 35,3.0,769
+2009,Lamborghini,Lamborghini Flat-6 67,7.0,877
+2009,Bugatti,Bugatti W16 Quad 37,6.7,860
+2009,Pagani,Pagani V12 Natural 97,2.1,730
+2009,Porsche,Porsche Flat-6 53,2.6,669
+2009,McLaren,McLaren Flat-6 83,5.8,923
+2009,Pagani,Pagani Flat-6 2,7.6,592
+2009,Lamborghini,Lamborghini W16 Quad 90,6.2,794
+2009,Ford,Ford V8 Turbo 69,3.2,769
+2009,Lamborghini,Lamborghini V12 Natural 37,2.1,632
+2009,Pagani,Pagani W16 Quad 36,6.9,906
+2009,Mercedes-AMG,Mercedes-AMG V8 Turbo 23,7.9,758
+2009,Audi,Audi V8 Turbo 91,2.3,995
+2009,Bugatti,Bugatti Flat-6 3,7.0,605
+2009,Koenigsegg,Koenigsegg Flat-6 20,2.9,926
+2009,Lamborghini,Lamborghini V8 Supercharged 26,3.4,773
+2010,McLaren,McLaren V8 Supercharged 61,7.9,790
+2010,Koenigsegg,Koenigsegg Flat-6 58,3.5,786
+2010,Ferrari,Ferrari V8 Turbo 60,3.3,670
+2010,Chevrolet,Chevrolet V12 Natural 32,5.6,1058
+2010,Koenigsegg,Koenigsegg Inline-6 85,5.6,738
+2010,Ferrari,Ferrari Inline-6 26,2.6,759
+2010,Porsche,Porsche W16 Quad 96,3.8,963
+2010,McLaren,McLaren W16 Quad 38,5.8,604
+2010,Lamborghini,Lamborghini V8 Supercharged 17,2.6,666
+2010,Chevrolet,Chevrolet V10 Performance 33,3.6,864
+2010,Bugatti,Bugatti W16 Quad 2,5.4,845
+2010,Lamborghini,Lamborghini Inline-6 54,4.6,704
+2010,Bugatti,Bugatti Inline-6 50,6.0,708
+2010,Ford,Ford Inline-6 65,6.5,710
+2010,Ferrari,Ferrari Flat-6 1,3.8,799
+2011,BMW,BMW V10 Performance 47,6.3,1129
+2011,Ford,Ford Inline-6 51,4.5,768
+2011,Pagani,Pagani V8 Turbo 71,2.4,1059
+2011,Chevrolet,Chevrolet V12 Natural 44,7.9,1117
+2011,Pagani,Pagani V8 Turbo 28,3.7,901
+2011,Lamborghini,Lamborghini V12 Natural 20,5.6,753
+2011,Lamborghini,Lamborghini Flat-6 97,2.3,880
+2011,Koenigsegg,Koenigsegg Flat-6 96,6.0,630
+2011,Pagani,Pagani Inline-6 92,3.8,1014
+2011,Lamborghini,Lamborghini Flat-6 20,3.1,717
+2011,Audi,Audi W16 Quad 54,2.8,719
+2011,Chevrolet,Chevrolet V12 Natural 55,3.3,959
+2011,Lamborghini,Lamborghini W16 Quad 46,2.4,958
+2011,McLaren,McLaren V8 Turbo 6,7.8,986
+2011,Bugatti,Bugatti V8 Turbo 8,7.7,788
+2012,Chevrolet,Chevrolet V12 Natural 5,3.6,968
+2012,Koenigsegg,Koenigsegg Flat-6 53,2.6,1061
+2012,Pagani,Pagani Inline-6 26,2.2,713
+2012,Mercedes-AMG,Mercedes-AMG V10 Performance 36,5.1,1058
+2012,Pagani,Pagani V12 Natural 38,7.4,671
+2012,Lamborghini,Lamborghini V8 Supercharged 44,5.9,748
+2012,Chevrolet,Chevrolet V8 Supercharged 24,7.8,962
+2012,Bugatti,Bugatti W16 Quad 31,3.3,712
+2012,Mercedes-AMG,Mercedes-AMG V8 Turbo 44,3.6,790
+2012,Chevrolet,Chevrolet Flat-6 27,2.7,1047
+2012,Ford,Ford V8 Supercharged 52,5.8,912
+2012,Ford,Ford Inline-6 10,6.7,856
+2012,Mercedes-AMG,Mercedes-AMG W16 Quad 32,7.1,867
+2012,Chevrolet,Chevrolet W16 Quad 53,5.4,911
+2012,Lamborghini,Lamborghini Inline-6 28,2.0,828
+2013,Chevrolet,Chevrolet Flat-6 52,3.4,1182
+2013,Bugatti,Bugatti V8 Supercharged 68,2.5,839
+2013,Bugatti,Bugatti V10 Performance 43,6.5,956
+2013,McLaren,McLaren V8 Supercharged 83,3.2,1000
+2013,Ferrari,Ferrari Flat-6 14,6.1,1050
+2013,Ferrari,Ferrari Flat-6 76,4.0,732
+2013,McLaren,McLaren Inline-6 71,6.0,917
+2013,Porsche,Porsche Flat-6 98,6.9,693
+2013,Bugatti,Bugatti V8 Turbo 15,3.0,900
+2013,Audi,Audi V12 Natural 83,2.1,768
+2013,Chevrolet,Chevrolet W16 Quad 16,6.7,832
+2013,Audi,Audi V8 Turbo 15,4.8,790
+2013,Audi,Audi Inline-6 20,7.9,1032
+2013,Pagani,Pagani W16 Quad 81,2.5,761
+2013,Porsche,Porsche V12 Natural 31,3.2,889
+2014,Audi,Audi Inline-6 15,3.4,1010
+2014,Mercedes-AMG,Mercedes-AMG W16 Quad 82,7.2,940
+2014,Porsche,Porsche Inline-6 3,5.2,748
+2014,Chevrolet,Chevrolet V12 Natural 24,7.1,1092
+2014,Lamborghini,Lamborghini W16 Quad 10,5.5,844
+2014,Mercedes-AMG,Mercedes-AMG W16 Quad 95,2.3,856
+2014,Lamborghini,Lamborghini Flat-6 28,3.1,917
+2014,McLaren,McLaren V10 Performance 20,3.0,1077
+2014,Porsche,Porsche V8 Supercharged 86,2.5,1121
+2014,Audi,Audi V8 Supercharged 75,6.9,748
+2014,McLaren,McLaren V12 Natural 29,3.9,902
+2014,Audi,Audi W16 Quad 28,4.5,1112
+2014,Ford,Ford W16 Quad 55,2.3,1065
+2014,Bugatti,Bugatti W16 Quad 41,7.6,897
+2014,Lamborghini,Lamborghini V8 Turbo 19,4.3,728
+2015,Chevrolet,Chevrolet V8 Turbo 83,6.3,1173
+2015,Ferrari,Ferrari W16 Quad 89,5.6,826
+2015,Ford,Ford V8 Supercharged 36,3.3,1197
+2015,BMW,BMW V12 Natural 9,7.9,1142
+2015,Mercedes-AMG,Mercedes-AMG Inline-6 43,2.5,1015
+2015,Mercedes-AMG,Mercedes-AMG V8 Turbo 66,7.2,1136
+2015,Pagani,Pagani V12 Natural 97,6.4,1039
+2015,Lamborghini,Lamborghini Flat-6 74,5.9,1127
+2015,Lamborghini,Lamborghini V10 Performance 30,6.5,938
+2015,Lamborghini,Lamborghini V8 Supercharged 64,6.9,758
+2015,Bugatti,Bugatti V12 Natural 59,5.8,836
+2015,Koenigsegg,Koenigsegg Flat-6 42,6.5,1110
+2015,Ferrari,Ferrari W16 Quad 16,6.7,1063
+2015,Ford,Ford V8 Supercharged 38,7.8,948
+2015,Porsche,Porsche V8 Supercharged 47,5.4,752
+2016,BMW,BMW Flat-6 2,3.0,1151
+2016,Bugatti,Bugatti Flat-6 63,4.4,1011
+2016,BMW,BMW V12 Natural 92,6.8,807
+2016,Ferrari,Ferrari V12 Natural 89,2.6,879
+2016,BMW,BMW Flat-6 17,3.2,998
+2016,Chevrolet,Chevrolet V10 Performance 19,3.6,1086
+2016,Chevrolet,Chevrolet Inline-6 50,6.6,1118
+2016,Ferrari,Ferrari V8 Supercharged 18,5.2,1171
+2016,Chevrolet,Chevrolet Flat-6 67,7.2,979
+2016,Ferrari,Ferrari V10 Performance 83,4.2,1002
+2016,Mercedes-AMG,Mercedes-AMG Flat-6 56,5.3,986
+2016,Audi,Audi V12 Natural 16,7.5,1234
+2016,McLaren,McLaren V8 Supercharged 2,2.5,816
+2016,Pagani,Pagani V10 Performance 30,4.9,818
+2016,Audi,Audi Flat-6 70,2.1,1249
+2017,Ford,Ford W16 Quad 37,7.9,1075
+2017,Lamborghini,Lamborghini V8 Turbo 66,4.5,1100
+2017,Chevrolet,Chevrolet V10 Performance 35,7.7,1243
+2017,Ferrari,Ferrari Inline-6 70,4.5,1283
+2017,Bugatti,Bugatti W16 Quad 68,3.9,1199
+2017,Mercedes-AMG,Mercedes-AMG Inline-6 56,2.8,1225
+2017,Koenigsegg,Koenigsegg W16 Quad 73,6.2,1212
+2017,Chevrolet,Chevrolet V8 Turbo 70,4.4,961
+2017,Bugatti,Bugatti V10 Performance 60,6.8,1173
+2017,Chevrolet,Chevrolet Flat-6 41,2.8,1274
+2017,Bugatti,Bugatti V12 Natural 89,3.9,1120
+2017,Porsche,Porsche V10 Performance 32,3.1,1157
+2017,Chevrolet,Chevrolet V10 Performance 62,6.4,890
+2017,Audi,Audi V8 Turbo 35,4.5,1267
+2017,Pagani,Pagani Flat-6 4,5.3,1007
+2018,Porsche,Porsche Inline-6 29,7.2,1028
+2018,Koenigsegg,Koenigsegg V12 Natural 28,4.4,1140
+2018,Ford,Ford V8 Supercharged 44,5.3,1136
+2018,Bugatti,Bugatti Inline-6 40,7.1,1030
+2018,Bugatti,Bugatti V8 Supercharged 50,3.6,1115
+2018,Ford,Ford Flat-6 15,7.9,1261
+2018,Bugatti,Bugatti V8 Turbo 28,3.1,1045
+2018,BMW,BMW Inline-6 49,4.9,1078
+2018,BMW,BMW W16 Quad 16,6.7,1293
+2018,Porsche,Porsche Flat-6 16,4.7,1286
+2018,Mercedes-AMG,Mercedes-AMG W16 Quad 7,5.4,1096
+2018,Ford,Ford V10 Performance 34,5.6,1158
+2018,Pagani,Pagani V10 Performance 97,5.2,1243
+2018,Chevrolet,Chevrolet Flat-6 22,6.4,1302
+2018,Pagani,Pagani W16 Quad 82,4.9,1212
+2019,Lamborghini,Lamborghini W16 Quad 76,7.9,908
+2019,Bugatti,Bugatti Flat-6 3,3.1,1137
+2019,BMW,BMW W16 Quad 3,5.2,1078
+2019,McLaren,McLaren V8 Supercharged 74,7.6,893
+2019,Ford,Ford Inline-6 68,3.3,1010
+2019,Bugatti,Bugatti V8 Supercharged 62,3.3,1075
+2019,Pagani,Pagani W16 Quad 38,4.6,1140
+2019,Ford,Ford V8 Supercharged 14,2.9,1220
+2019,Lamborghini,Lamborghini V12 Natural 81,7.3,1017
+2019,BMW,BMW Flat-6 97,7.0,1087
+2019,Ferrari,Ferrari V12 Natural 48,7.9,972
+2019,Porsche,Porsche V8 Turbo 80,3.2,942
+2019,Koenigsegg,Koenigsegg W16 Quad 73,4.9,1008
+2019,McLaren,McLaren V10 Performance 29,2.3,1081
+2019,McLaren,McLaren V12 Natural 22,3.9,1314
+2020,Bugatti,Bugatti V8 Supercharged 58,2.1,1102
+2020,Bugatti,Bugatti V8 Supercharged 25,6.9,1005
+2020,Ferrari,Ferrari V8 Turbo 96,2.1,900
+2020,BMW,BMW Flat-6 92,3.5,1009
+2020,Lamborghini,Lamborghini Flat-6 3,5.0,1017
+2020,Ford,Ford V10 Performance 90,3.7,1082
+2020,McLaren,McLaren V8 Turbo 97,2.9,1388
+2020,BMW,BMW V10 Performance 24,2.3,1122
+2020,Ford,Ford V10 Performance 6,3.4,1178
+2020,Koenigsegg,Koenigsegg V10 Performance 34,7.7,1220
+2020,Lamborghini,Lamborghini W16 Quad 35,7.3,1261
+2020,McLaren,McLaren Inline-6 69,3.1,1224
+2020,Mercedes-AMG,Mercedes-AMG Inline-6 35,3.2,1343
+2020,Lamborghini,Lamborghini Flat-6 81,6.9,903
+2020,Ford,Ford W16 Quad 32,7.8,1263
+2021,Mercedes-AMG,Mercedes-AMG V10 Performance 15,5.1,1319
+2021,Mercedes-AMG,Mercedes-AMG W16 Quad 84,6.0,1130
+2021,Audi,Audi Flat-6 29,3.6,1207
+2021,Ford,Ford Flat-6 83,2.6,1077
+2021,Ford,Ford V8 Supercharged 44,2.7,1391
+2021,Ferrari,Ferrari V12 Natural 86,3.1,990
+2021,Mercedes-AMG,Mercedes-AMG Inline-6 6,2.3,1243
+2021,Bugatti,Bugatti Inline-6 13,4.5,1381
+2021,Lamborghini,Lamborghini Flat-6 78,4.4,1218
+2021,Koenigsegg,Koenigsegg V8 Supercharged 62,5.0,1046
+2021,Mercedes-AMG,Mercedes-AMG V8 Supercharged 72,6.1,1062
+2021,Koenigsegg,Koenigsegg V12 Natural 15,2.7,1189
+2021,Chevrolet,Chevrolet V8 Turbo 4,6.5,997
+2021,McLaren,McLaren Flat-6 13,6.2,994
+2021,Audi,Audi V10 Performance 77,7.2,1131
+2022,Koenigsegg,Koenigsegg V10 Performance 52,5.4,1107
+2022,Pagani,Pagani V10 Performance 78,7.7,1248
+2022,Porsche,Porsche V8 Supercharged 42,7.4,1215
+2022,Ford,Ford V8 Supercharged 15,4.0,1101
+2022,Mercedes-AMG,Mercedes-AMG V8 Turbo 3,3.6,1398
+2022,Audi,Audi Flat-6 25,3.3,1256
+2022,Audi,Audi V12 Natural 31,2.7,1078
+2022,Audi,Audi V8 Supercharged 14,5.3,1363
+2022,Ford,Ford Inline-6 13,2.6,1252
+2022,Porsche,Porsche W16 Quad 19,7.7,1054
+2022,Chevrolet,Chevrolet Inline-6 61,4.0,1127
+2022,Pagani,Pagani V10 Performance 72,5.2,1125
+2022,McLaren,McLaren Flat-6 60,3.5,1127
+2022,Ferrari,Ferrari V8 Turbo 13,3.2,1290
+2022,Koenigsegg,Koenigsegg Flat-6 43,6.3,1440
+2023,Mercedes-AMG,Mercedes-AMG W16 Quad 90,5.4,1336
+2023,Audi,Audi V10 Performance 58,6.9,1217
+2023,Bugatti,Bugatti V10 Performance 24,5.1,1378
+2023,Mercedes-AMG,Mercedes-AMG W16 Quad 52,4.4,1015
+2023,Audi,Audi V8 Turbo 2,6.4,1441
+2023,Lamborghini,Lamborghini W16 Quad 14,6.9,1092
+2023,Ferrari,Ferrari V10 Performance 21,2.2,1268
+2023,Porsche,Porsche V10 Performance 1,2.9,1083
+2023,Chevrolet,Chevrolet V12 Natural 64,4.8,1216
+2023,McLaren,McLaren V12 Natural 60,7.4,1415
+2023,Ford,Ford Flat-6 44,7.7,1059
+2023,Ford,Ford W16 Quad 55,3.4,1193
+2023,Pagani,Pagani W16 Quad 99,5.3,1114
+2023,Ferrari,Ferrari V12 Natural 27,2.2,1353
+2023,Porsche,Porsche V10 Performance 84,4.2,1154
+
+2024,Audi,Audi V8 Turbo 2,6.4,1441
+2024,McLaren,McLaren V12 Natural 60,7.4,1415
+2024,Bugatti,Bugatti V10 Performance 24,5.1,1378
+2024,Ferrari,Ferrari V12 Natural 27,2.2,1353
+2024,Mercedes-AMG,Mercedes-AMG W16 Quad 90,5.4,1336
+2024,Chevrolet,Chevrolet V12 Natural 64,4.8,1216
+2024,Porsche,Porsche V10 Performance 84,4.2,1154
+2024,Pagani,Pagani W16 Quad 99,5.3,1114
+2024,Ford,Ford W16 Quad 55,3.4,1193
+2024,Lamborghini,Lamborghini W16 Quad 14,6.9,1092
+
+2025,Audi,Audi V8 Turbo 2,6.4,1441
+2025,McLaren,McLaren V12 Natural 60,7.4,1415
+2025,Bugatti,Bugatti V10 Performance 24,5.1,1378
+2025,Ferrari,Ferrari V12 Natural 27,2.2,1353
+2025,Mercedes-AMG,Mercedes-AMG W16 Quad 90,5.4,1336
+2025,Chevrolet,Chevrolet V12 Natural 64,4.8,1216
+2025,Porsche,Porsche V10 Performance 84,4.2,1154
+2025,Pagani,Pagani W16 Quad 99,5.3,1114
+2025,Ford,Ford W16 Quad 55,3.4,1193
+2025,Lamborghini,Lamborghini W16 Quad 14,6.9,1092
+
+2026,Audi,Audi V8 Turbo 2,6.4,1441
+2026,McLaren,McLaren V12 Natural 60,7.4,1415
+2026,Bugatti,Bugatti V10 Performance 24,5.1,1378
+2026,Ferrari,Ferrari V12 Natural 27,2.2,1353
+2026,Mercedes-AMG,Mercedes-AMG W16 Quad 90,5.4,1336
+2026,Chevrolet,Chevrolet V12 Natural 64,4.8,1216
+2026,Porsche,Porsche V10 Performance 84,4.2,1154
+2026,Pagani,Pagani W16 Quad 99,5.3,1114
+2026,Ford,Ford W16 Quad 55,3.4,1193
+2026,Lamborghini,Lamborghini W16 Quad 14,6.9,1092
